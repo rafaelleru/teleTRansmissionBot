@@ -3,7 +3,7 @@ import time
 import sys
 import os
 
-bot = telepot.Bot('167234345:AAFFk66sDGW8-7KvI4COKiEL7xEG14KCoTY')
+bot = telepot.Bot('')
 
 def handle(msg):
     chat_id = msg['from']['id']
